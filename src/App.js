@@ -1,10 +1,11 @@
 import './App.css';
 import Product from './components/product.js';
+import Navbar from './components/navbar.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>hola mundo</h1>
+      <Navbar/>
       <Product/>
     </div>
   );

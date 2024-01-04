@@ -36,7 +36,7 @@ export default function Product() {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, margin: "5rem 2rem"  }}>
         
       <CardHeader
        action={

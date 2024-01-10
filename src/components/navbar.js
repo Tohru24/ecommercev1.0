@@ -5,7 +5,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import PhoneIcon from '@mui/icons-material/Phone';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import PersonIcon from '@mui/icons-material/Person';
 import logo from "../assets/jglogo.png";
@@ -35,15 +34,6 @@ export default function Navbar() {
             startIcon={<PhoneIcon sx={{ animation: `${vibrationAnimation} 2s infinite` }} />}
           >
             Llámanos
-          </Button>
-
-          {/* Botón "Chatea con un asesor" en color verde con texto blanco y animación */}
-          <Button
-            size="large"
-            sx={{ backgroundColor: 'green', color: 'white', marginRight: 2, '&:hover': { backgroundColor: 'darkgreen' } }}
-            startIcon={<WhatsAppIcon sx={{ animation: `${vibrationAnimation} 2s infinite` }} />}
-          >
-            Chatea con un asesor
           </Button>
 
           {/* Espaciador para separar los botones */}
